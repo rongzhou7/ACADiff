@@ -37,6 +37,7 @@ data/
 ├── FDG/
 └── AV45/
 sta/
+├── disease label.csv
 └── cognitive_scores_matched.csv
 ```
 
@@ -73,27 +74,9 @@ Edit `config.py` to modify hyperparameters.
     └── evaluate.py       # Evaluation metrics
 ```
 
----
-
-## Citation
-
-```bibtex
-@inproceedings{zhou2026acadiff,
-  title={Adaptive Clinical-Aware Latent Diffusion for Multimodal Brain Image Generation},
-  author={Zhou, Rong and Zhou, Houliang and Su, Yao and Chen, Brian Y. and Zhang, Yu and He, Lifang},
-  booktitle={ISBI},
-  year={2026}
-}
-```
-
----
 
 ## License
 
 MIT License
 
 ---
-
-## Contact
-
-Rong Zhou - rongzhou7@gmail.com
