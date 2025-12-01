@@ -33,7 +33,7 @@ pip install torch nibabel pandas numpy scikit-image scikit-learn tqdm
 Place your data in the following structure:
 ```
 data/
-├── VBM/
+├── MRI/
 ├── FDG/
 └── AV45/
 sta/
@@ -45,13 +45,13 @@ sta/
 
 ```bash
 # Step 1: Train VAE
-python models/vae.py --modality VBM
+python models/vae.py --modality MRI
 
 # Step 2: Train Diffusion
-python train_diffusion.py --target VBM
+python train_diffusion.py --target MRI
 
 # Step 3: Inference
-python inference.py --target VBM --available FDG AV45
+python inference.py --target MRI --available FDG AV45
 ```
 
 ### Configuration
