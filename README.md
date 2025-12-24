@@ -2,7 +2,7 @@
 
 PyTorch implementation of **"Adaptive Clinical-Aware Latent Diffusion for Multimodal Brain Image Generation and Missing Modality Imputation"**.
 
-> **Note:** This is a research prototype. The code is under active development.
+> **Note:** This is a research prototype. The full implementation will be made publicly available upon acceptance of the paper.
 
 ---
 
